@@ -3,9 +3,7 @@ A modification guide for the [Talkpod A36plus](https://talkpod.com/products/talk
 The stock firmware does not support flat baseband in/out, so it is required to flash the device with [OpenRTX](https://github.com/OpenRTX/OpenRTX) open-source alternative firmware.
 
 > [!WARNING]
-> This mod $${\color{orange}does \space not \space allow \space \space nor \space enable}$$ the radio to process or generate M17 on its own - an external modem is required.
-> The proposed modification breaks both the RX and TX paths, meaning that it is $${\color{orange}no \space longer \space possible \space to \space use \space the \space radio's \space microphone \space and \space speaker}$$.
-> The only baseband access is through the Kenwood connector. 
+> This mod $${\color{orange}does \space not \space allow \space \space nor \space enable}$$ the radio to process or generate M17 on its own - an external modem is required. The proposed modification breaks both the RX and TX paths, meaning that it is $${\color{orange}no \space longer \space possible \space to \space use \space the \space radio's \space microphone \space and \space speaker}$$. The only baseband access is through the Kenwood connector. 
 
 ## The general idea
 To access flat baseband, just connect two of the pins of the mod/demod IC with the Kenwood connector. Some parts have to be removed so that the signal is kept clean.
