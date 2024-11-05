@@ -4,7 +4,7 @@ The stock firmware does not support flat baseband in/out, so it is required to f
 
 ## Warning
 The proposed modification breaks both the RX and TX paths, meaning that it is **no longer possible to use the radio's microphone and speaker**.
-The only baseband access is through the Kenwood connector.
+The only baseband access is through the Kenwood connector. This mod **does not allow nor enable** the radio to process or generate M17 on its own - an external modem is required.
 
 ## The general idea
 To access flat baseband, just connect two of the pins of the mod/demod IC with the Kenwood connector. Some parts have to be removed so that the signal is kept clean.
