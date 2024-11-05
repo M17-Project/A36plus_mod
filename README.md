@@ -1,6 +1,12 @@
 # A36plus_mod
 A modification guide for the [Talkpod A36plus](https://talkpod.com/products/talkpod%C2%AE-a36plus-144-430-mhz-uhf-vhf-gmrs-ham-hand-held-transceiver), enabling flat baseband input/output (so-called "9600 baud").
-The stock firmware does not support flat baseband in/out, so it is required to flash the device with [OpenRTX](https://github.com/OpenRTX/OpenRTX) open-source alternative firmware.
+The stock firmware does not support flat baseband in/out, so it is required to flash the device with [OpenRTX](https://github.com/OpenRTX/OpenRTX) open-source alternative firmware. $${\color{red}This \space mod \space does \space not \space make \space the \space radio \space capable \space of \space using \space M17. \space MCU \space in \space this \space radio \space cannot \space support \space M17.}$$
+
+> [!IMPORTANT]
+> $${\color{red}This \space mod \space does \space not \space make \space the \space radio \space capable \space of \space using \space M17. \space MCU \space in \space this \space radio \space cannot \space support \space M17.}$$
+
+> [!WARNING]
+> This mod does not make the radio capable of using M17. MCU in this radio cannot support M17.
 
 ## Warning
 The proposed modification breaks both the RX and TX paths, meaning that it is **no longer possible to use the radio's microphone and speaker**.
