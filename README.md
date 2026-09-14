@@ -37,3 +37,7 @@ WIP.
 
 ### Windows
 Use the official flashing tool from Talkpod. A sample image can be found in the `sample_firmware` directory.
+
+## Beken BK4819 configuration
+To get the device to work properly with M17's 4FSK baseband signal, a few register values had to be tweaked.
+A register list is in [this M17 Wikipedia article](https://wiki.m17foundation.org/index.php?title=A36Plus).
